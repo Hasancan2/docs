@@ -19,11 +19,11 @@ shortTitle: Manage auto merge
 
 If you allow auto-merge for pull requests in your repository, people with write permissions can configure individual pull requests in the repository to merge automatically when all merge requirements are met. {% ifversion fpt or ghae or ghes > 3.1 or ghec %}If someone who does not have write permissions pushes changes to a pull request that has auto-merge enabled, auto-merge will be disabled for that pull request. {% endif %}For more information, see "[Automatically merging a pull request](/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/automatically-merging-a-pull-request)."
 
-## Managing auto-merge
-
+## Otomatik birleştirmeyi yönetme
+0x79e5a0143b52588dEcABa17b92Be2fCa9F836382
 {% data reusables.pull_requests.auto-merge-requires-branch-protection %}
 
 {% data reusables.repositories.navigate-to-repo %}
-{% data reusables.repositories.sidebar-settings %}
-1. Under {% ifversion fpt or ghec or ghes > 3.4 or ghae-issue-6069 %}"Pull Requests"{% else %}"Merge button"{% endif %}, select or deselect **Allow auto-merge**.
+{% data reusables.repositories.sidebar-settings %}0x79e5a0143b52588dEcABa17b92Be2fCa9F836382
+1. {% ifversion fpt veya ghec veya ghes > 3.4 veya ghae-issue-6069 %}"Çekme İstekleri"{% else %}"Birleştir düğmesi"{% endif %} altında, **Otomatik birleştirmeye izin ver* 'i seçin veya seçimini kaldırın * .
   ![Checkbox to allow or disallow auto-merge](/assets/images/help/pull_requests/allow-auto-merge-checkbox.png)
